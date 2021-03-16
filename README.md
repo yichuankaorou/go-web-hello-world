@@ -564,8 +564,33 @@ if this is for an interview session, please send it to yijing.Zheng@ericsson.com
 kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboard get secret | grep admin-user | awk '{print $1}') > dashboard_token.yaml
 
 ### step 2 - push to GitHub 
+cd /root/go/src/demo/go-web-hello-world 
+git init
 git add .
-git commit -m "all done"
+git commit -m "task finish"
 git push origin master 
+git log 
+output>
+commit 93ac424252d6e161ad022b73e4af6f96fd1ea77c
+Author: jizhi.sui <jizhi@163.com>
+Date:   Tue Mar 16 16:19:55 2021 +0800
+
+    task finish
 ```
 
+### Finally Remind
+
+please browse all files in:  https://github.com/yichuankaorou/go-web-hello-world
+
+go-web-hello-world
+	├── admin.conf											# k8s admin.conf file 
+	├── dashboard_token.yaml					   # dashboard login token 
+	├── Dockerfile											  # image dockerfile 
+	├── go.mod
+	├── pod.yaml												# pod yaml to run container 
+	├── README.md										  # store all procedures and answer record 
+	├── recommended.yaml
+	├── run
+	└── run.go
+
+please browse the image in: https://hub.docker.com/repository/docker/yichuankaorou/go-web-hello-world 
