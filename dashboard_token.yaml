@@ -1,0 +1,64 @@
+Name:         default-token-8r8ht
+Namespace:    kubernetes-dashboard
+Labels:       <none>
+Annotations:  kubernetes.io/service-account.name: default
+              kubernetes.io/service-account.uid: 6b5ad3e7-3ac7-4bc4-966d-058ca4b0137d
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+ca.crt:     1066 bytes
+namespace:  20 bytes
+token:      eyJhbGciOiJSUzI1NiIsImtpZCI6IkN3TDhuWVh4SzdFbEhPcVVxYnZMU2ZIeDhtVXVpamZxS09EcVBmVGgtQUkifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlcm5ldGVzLWRhc2hib2FyZCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJkZWZhdWx0LXRva2VuLThyOGh0Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9zZXJ2aWNlLWFjY291bnQubmFtZSI6ImRlZmF1bHQiLCJrdWJlcm5ldGVzLmlvL3NlcnZpY2VhY2NvdW50L3NlcnZpY2UtYWNjb3VudC51aWQiOiI2YjVhZDNlNy0zYWM3LTRiYzQtOTY2ZC0wNThjYTRiMDEzN2QiLCJzdWIiOiJzeXN0ZW06c2VydmljZWFjY291bnQ6a3ViZXJuZXRlcy1kYXNoYm9hcmQ6ZGVmYXVsdCJ9.bjUkszRbMnJj9bWuxxT4HUyFJcxS9z8cb8MlTzojKTao1Z-hH3bNdC6n6V1dD5_KKJa1PqEYj9TlFpr0y9TNm_231gbMQL7G0jeFICXNOL6wqbpoVvWhdQB3wpl7VQF287MOAZ1H1BjSgb1k_RSYIHp5rJJ7fW6Xz8IF8G_eiO3Ercav3yLzY9vwtluXqCAKc7xAZcOMWq0pa4l2rdu3J9UOWCjS4HfFaIQEykR9NC-vGwYhKdbaNE9TBYwbtZgBr-OviZcRodjhxb9aaqEav_ZyHwgtNXVRL2AAGC_8V2ud3gtjzGKtzBB7ysCo9nuc73EmXtN6qA3Zx2RmvRzpzA
+
+
+Name:         kubernetes-dashboard-certs
+Namespace:    kubernetes-dashboard
+Labels:       k8s-app=kubernetes-dashboard
+Annotations:  <none>
+
+Type:  Opaque
+
+Data
+====
+
+
+Name:         kubernetes-dashboard-csrf
+Namespace:    kubernetes-dashboard
+Labels:       k8s-app=kubernetes-dashboard
+Annotations:  <none>
+
+Type:  Opaque
+
+Data
+====
+csrf:  256 bytes
+
+
+Name:         kubernetes-dashboard-key-holder
+Namespace:    kubernetes-dashboard
+Labels:       <none>
+Annotations:  <none>
+
+Type:  Opaque
+
+Data
+====
+priv:  1679 bytes
+pub:   459 bytes
+
+
+Name:         kubernetes-dashboard-token-zgb8n
+Namespace:    kubernetes-dashboard
+Labels:       <none>
+Annotations:  kubernetes.io/service-account.name: kubernetes-dashboard
+              kubernetes.io/service-account.uid: f6e23d2d-2372-41b8-9b7f-e6bdb920b036
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+token:      eyJhbGciOiJSUzI1NiIsImtpZCI6IkN3TDhuWVh4SzdFbEhPcVVxYnZMU2ZIeDhtVXVpamZxS09EcVBmVGgtQUkifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlcm5ldGVzLWRhc2hib2FyZCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJrdWJlcm5ldGVzLWRhc2hib2FyZC10b2tlbi16Z2I4biIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJrdWJlcm5ldGVzLWRhc2hib2FyZCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6ImY2ZTIzZDJkLTIzNzItNDFiOC05YjdmLWU2YmRiOTIwYjAzNiIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDprdWJlcm5ldGVzLWRhc2hib2FyZDprdWJlcm5ldGVzLWRhc2hib2FyZCJ9.RbQvoG3pRy2bowgTyRdtGrTCy_fa3PIwl4IXoRkCILUdvHSmiwA28R-A_KkslQKllYJ59MnpjeTQcSSPD_ZNqrIaCZ5TyWHoH3ZQv-S7FKsJ5oNS73pVG3WnPWE6xYd3-usOV1JUOGByA2u7gN4pGJjKuzxuE-8zNHksNFTqp6cNQR_ObpZ4HK5lmgAW5Q_M6PMHOzUQXWdMnvzA3vI_CpCuDFd18UM5QAvq4NyAHSfZkDakfEsZGLU6XTIPvaPIjl06MpoKTCJK8O7dVg-deia9Yirzb79hCPwg4dB7IfFB_pOrY4f-AZVdFn27eU7y7j9JOXI5k2h-K6HOjd_btA
+ca.crt:     1066 bytes
+namespace:  20 bytes

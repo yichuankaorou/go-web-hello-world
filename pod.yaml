@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello
+  labels:
+    name: hello
+spec:
+  containers:
+  - name: hello
+    image: yichuankaorou/go-web-hello-world:v1.0
+    imagePullPolicy: IfNotPresent
+    ports:
+    - containerPort: 8081
+      hostPort: 31080
